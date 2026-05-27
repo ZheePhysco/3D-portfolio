@@ -266,8 +266,8 @@ export default function AboutSection() {
             <Image
               src="/photos/portrait/picture-01.png"
               alt="Photographer — analog portrait"
-              width={600}
-              height={800}
+              width={941}
+              height={1672}
               style={{ width: "100%", height: "auto" }}
               priority
             />

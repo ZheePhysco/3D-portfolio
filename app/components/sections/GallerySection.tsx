@@ -9,16 +9,16 @@ gsap.registerPlugin(ScrollTrigger);
 type Cat = "all" | "portrait" | "street" | "analog" | "gallery";
 
 const PHOTOS = [
-  { src: "/photos/portrait/picture-01.png", cat: "portrait", label: "Portrait · 01", w: 600, h: 800 },
-  { src: "/photos/gallery/gallery-01.png",  cat: "gallery",  label: "Analog · 01",   w: 800, h: 600 },
-  { src: "/photos/portrait/picture-02.png", cat: "analog",   label: "Film · 02",     w: 600, h: 750 },
-  { src: "/photos/gallery/gallery-02.png",  cat: "street",   label: "Street · 01",   w: 800, h: 550 },
-  { src: "/photos/portrait/picture-03.png", cat: "portrait", label: "Portrait · 03", w: 600, h: 900 },
-  { src: "/photos/gallery/gallery-03.png",  cat: "gallery",  label: "Gallery · 03",  w: 800, h: 600 },
-  { src: "/photos/portrait/picture-04.png", cat: "street",   label: "Street · 04",   w: 600, h: 700 },
-  { src: "/photos/gallery/gallery-04.png",  cat: "analog",   label: "Analog · 04",   w: 800, h: 600 },
-  { src: "/photos/portrait/picture-05.png", cat: "portrait", label: "Portrait · 05", w: 600, h: 800 },
-  { src: "/photos/gallery/gallery-05.png",  cat: "gallery",  label: "Gallery · 05",  w: 800, h: 620 },
+  { src: "/photos/portrait/picture-01.png", cat: "portrait", label: "Portrait · 01", w: 941, h: 1672 },
+  { src: "/photos/gallery/gallery-01.png",  cat: "gallery",  label: "Gallery · 01",  w: 941, h: 1672 },
+  { src: "/photos/portrait/picture-02.png", cat: "portrait", label: "Portrait · 02", w: 941, h: 1672 },
+  { src: "/photos/gallery/gallery-02.png",  cat: "gallery",  label: "Gallery · 02",  w: 941, h: 1672 },
+  { src: "/photos/portrait/picture-03.png", cat: "portrait", label: "Portrait · 03", w: 941, h: 1672 },
+  { src: "/photos/gallery/gallery-03.png",  cat: "gallery",  label: "Gallery · 03",  w: 941, h: 1672 },
+  { src: "/photos/portrait/picture-04.png", cat: "portrait", label: "Portrait · 04", w: 941, h: 1672 },
+  { src: "/photos/gallery/gallery-04.png",  cat: "gallery",  label: "Gallery · 04",  w: 941, h: 1672 },
+  { src: "/photos/portrait/picture-05.png", cat: "portrait", label: "Portrait · 05", w: 941, h: 1672 },
+  { src: "/photos/gallery/gallery-05.png",  cat: "gallery",  label: "Gallery · 05",  w: 941, h: 1672 },
 ];
 
 const FILTERS: { key: Cat; label: string }[] = [
